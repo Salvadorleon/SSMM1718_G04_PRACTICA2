@@ -9,6 +9,8 @@ public class MainActivity extends AppCompatActivity {
 
     private String datosvolatiles = "Hola";  //es el mensaje que podemos observar cuando pulsamos el boton CONECTAR.
     private TextView volatil=null;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

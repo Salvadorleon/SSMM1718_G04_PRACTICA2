@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\LENOVO\Desktop\Servicios Moviles\SM1718_PRACTICA1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\LENOVO\Desktop\Servicios Moviles\SM1718_PRACTICA1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0a401e16047c6c27746b459b9dea0c570b4587fd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\LENOVO\Desktop\Servicios Moviles\SM1718_PRACTICA1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b64384f8c1f74f8a56e1c94bc29310fddb21ed9a">
         <dex dex="C:\Users\LENOVO\Desktop\Servicios Moviles\SM1718_PRACTICA1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d08f1fad70e54fdf6fd5eddf6ec09be11ac72989\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LENOVO\Desktop\Servicios Moviles\SSMM1718_G04_PRACTICA2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5856750170387b49c5d6e9b43c72ab37c8e0d128">
+        <dex dex="C:\Users\LENOVO\Desktop\Servicios Moviles\SSMM1718_G04_PRACTICA2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eefd532dd7f0d825bc7506f7704677f76ba30ccb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LENOVO\Desktop\Servicios Moviles\SSMM1718_G04_PRACTICA2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\LENOVO\Desktop\Servicios Moviles\SSMM1718_G04_PRACTICA2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2cd9f094970d6a72d02423f8340e52883930cbbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LENOVO\Desktop\Servicios Moviles\SM1718_PRACTICA1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\LENOVO\Desktop\Servicios Moviles\SM1718_PRACTICA1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0a401e16047c6c27746b459b9dea0c570b4587fd\classes.dex" />
     </item>
 
 </items>
