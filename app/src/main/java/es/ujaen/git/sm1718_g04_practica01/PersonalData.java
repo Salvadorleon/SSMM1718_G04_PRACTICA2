@@ -7,6 +7,7 @@ package es.ujaen.git.sm1718_g04_practica01;
 public class PersonalData {         //declaramos los parámetros que deberán ser introducidos por el usuario
     protected String name="";
     protected String surname="";
+    protected String apellido="";
 
     protected String user="";
     protected String pass="";
