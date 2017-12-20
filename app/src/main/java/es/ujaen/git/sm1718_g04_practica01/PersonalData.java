@@ -1,53 +1,45 @@
 package es.ujaen.git.sm1718_g04_practica01;
 
 /**
- * Created by usuario on 04/10/2017.
+ * Created by Salvaddorleon on 18/12/2017.
  */
 
-public class PersonalData {         //declaramos los parámetros que deberán ser introducidos por el usuario
-    protected String name="";
-    protected String surname="";
-    protected String apellido="";
+public class PersonalData {         //declaramos los parámetros user y pass que deberán ser introducidos por el usuario.
 
     protected String user="";
     protected String pass="";
 
+    //Hago constructor con parámetros, para poder inicializar user y pass.
     public PersonalData(String user,String pass){
         this.user=user;
         this.pass=pass;
     }
-    public PersonalData(){      //haciendo uso del get y set hacemos posible la conexión
+
+    //Hago constructor por defecto.
+    public PersonalData(){
+
     }
 
-    public String getName() {
-        return name;
-    }
+    //haciendo uso del get y set hacemos posible la conexión
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
 
     public String getUser() {
+
         return user;
     }
 
     public void setUser(String user) {
+
         this.user = user;
     }
 
     public String getPass() {
+
         return pass;
     }
 
     public void setPass(String pass) {
+
         this.pass = pass;
     }
 }

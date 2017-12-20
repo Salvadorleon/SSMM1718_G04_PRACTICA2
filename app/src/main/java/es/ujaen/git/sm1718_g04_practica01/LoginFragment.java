@@ -2,6 +2,7 @@ package es.ujaen.git.sm1718_g04_practica01;
 
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -18,15 +19,19 @@ import android.widget.Toast;
  * Use the {@link LoginFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class LoginFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param_ip";             //aqui declaramos cómo se llamarán los parámetros de entrada
-    private static final String ARG_PARAM2 = "param_port";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private int mParam2;
+public class LoginFragment extends Fragment {
+
+    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    private static final String ARG_PARAM1 = "param_1";             //aqui declaramos cómo se llamarán los parámetros de entrada
+    private static final String ARG_PARAM2 = "param_2";
+
+    //Aqui definimos las preferencias compartidas:
+    public static SharedPreferences preferencias;
+
+
+    private String IP;
+    private int PORT;
 
 
     public LoginFragment() {
@@ -41,25 +46,32 @@ public class LoginFragment extends Fragment {
      * @param port Parameter 2.
      * @return A new instance of fragment LoginFragment.
      */
-    // TODO: Rename and change types and number of parameters
+
     public static LoginFragment newInstance(String ip, int port) {
+        //Creamos un nuevo objeto
         LoginFragment fragment = new LoginFragment();
+        //Creamos un nuevo paquete
         Bundle args = new Bundle();
+        //Introducimos una cadena String y un entero Int
         args.putString(ARG_PARAM1, ip);
         args.putInt(ARG_PARAM2, port);
         fragment.setArguments(args);
         return fragment;
     }
 
+    //El método onCreate nos crea la instancia
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getInt(ARG_PARAM2);
+            //Guardamos este nuevo String en la variable que declaramos al principio "IP".
+            IP = getArguments().getString(ARG_PARAM1);
+            //Guardamos este nuevo Int en la variable que declaramos al principio "PORT".
+            PORT = getArguments().getInt(ARG_PARAM2);
         }
     }
 
+    //El método onCreateView nos crea la vista
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
