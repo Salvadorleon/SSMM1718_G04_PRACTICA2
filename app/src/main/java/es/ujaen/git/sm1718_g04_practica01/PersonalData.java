@@ -8,6 +8,7 @@ public class PersonalData {         //declaramos los parámetros user y pass que
 
     protected String user="";
     protected String pass="";
+    protected String hola="";
 
     //Hago constructor con parámetros, para poder inicializar user y pass.
     public PersonalData(String user,String pass){
